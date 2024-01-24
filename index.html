@@ -21,7 +21,7 @@
           extend: {
             colors: {
               clifford: '#da373d',
-              c-orenge: '#FF4240',
+              btn-colors: '#FF4240',
             }
           }
         }
@@ -57,7 +57,7 @@
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-4xl">Hockey’s</a>
+          <a class="btn btn-ghost text-4xl font-bold">Hockey<span class="text-[#FF4240]">’</span>s</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-2 text-xl">
@@ -90,7 +90,7 @@
   </header>
   <main>
     <div class="carousel w-full">
-      <div id="slide1" class="carousel-item relative w-full">
+      <div id="slide1" class="carousel-item relative w-full py-16 px-5">
         <img src="Images/1.png" class="w-full" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 left-5 top-3/4 gap-7">
           <a href="#slide4" class="btn btn-circle">❮</a>
@@ -106,44 +106,44 @@
       </div>
 
     </div>
-    <div class="bg-[#131318] text-center w-2/5 absolute top-1/2 right-1/4 lg:w-96 h-40 lg:p-7 rounded-3xl">
+    <div class="bg-[#131318] lg:absolute text-center  top-1/2 right-1/4 lg:w-96 h-40 p-7 rounded-3xl">
       <h3 class="text-white lg:text-2xl font-monrope font-semibold ">Meet all the heroes from the field</h3>
       <p class="text-[#FFFFFF] text-sm lg:max-w-2/3 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
         dolor. Purus urna in sit nullam proin. </p>
     </div>
     <!-- Club perfomence section -->
-    <section class="text-center content-center py-10 gap-7 border-dotted border-y-2 border-gray-400 px-2 lg:px-7">
+    <section class="text-center content-center lg:space-y-7 lg:px-80 py-10 gap-7 border-dotted border-y-2 border-gray-400 px-2">
       <h3 class="text-4xl font-bold">Professional Hockeys Club</h3>
       <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
         proin. </p>
     </section>
     <section>
       <!-- parcentage section  -->
-      <div class="flex flex-col text-center py-7 px-3 lg:flex-row px-2 lg:px-7 py-32">
+      <div class="flex flex-col text-center py-7 px-3 lg:flex-row lg:px-7 lg:py-9">
         <div >
           <div class="radial-progress text-red-500 text-primary" style="--value:87;" role="progressbar">87%</div>
-          <h2>Prayer Facility</h2>
+          <h2 class="font-semibold">Prayer Facility</h2>
           <p class="lg:max-w-3xl mx-auto">
             Amet consectetur. Condimentum dignissim adipiscing .
           </p>
         </div>
         <div class="">
           <div class="radial-progress text-[#49D293] text-primary" style="--value:95;" role="progressbar">95%</div>
-          <h2>Prayer Facility</h2>
+          <h2 class="font-semibold">Experienced Coach</h2>
           <p>
             Amet consectetur. Condimentum dignissim adipiscing .
           </p>
         </div>
         <div class="">
-          <div class="radial-progress text-primary" style="--value:90;" role="progressbar">90%</div>
-          <h2>Prayer Facility</h2>
+          <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar">90%</div>
+          <h2 class="font-semibold">Senior Player</h2>
           <p>
             Amet consectetur. Condimentum dignissim adipiscing .
           </p>
         </div>
         <div class="">
-          <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80%</div>
-          <h2>Prayer Facility</h2>
+          <div class="radial-progress text-blue-500" style="--value:80;" role="progressbar">80%</div>
+          <h2 class="font-semibold">Training Ground</h2>
           <p>
             Amet consectetur. Condimentum dignissim adipiscing .
           </p>
@@ -152,9 +152,9 @@
       
     </section>
     <!-- Program Sections  -->
-    <section>
-      <div class="text-center space-y-4 py-6 border-dotted border-y-2 border-gray-400">
-        <h3 class="text-4xl font-bold">
+    <section class="lg:py-12">
+      <div class="text-center lg:space-y-7 lg:px-80 border-dotted border-y-2 border-gray-400">
+        <h3 class="lg:text-4xl font-bold">
           Program Sections
         </h3>
         <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
@@ -162,8 +162,8 @@
     </section>
     <!-- Register section  -->
     <section>
-      <div class="flex flex-col items-center m-auto lg:flex-row gap-7 rounded-3xl space-x-7 space-x-0.5">
-        <div>
+      <div class="lg:items-center justify-center m-auto space-y-4 lg:flex lg:gap-7 lg:space-y-0 rounded-3xl">
+        <!-- <div> -->
           <div class="hero rounded-3xl max-w-1/2" style="background-image: url('./Images/2.png');">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
@@ -175,9 +175,9 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="
-        ">
+        <!-- </div> -->
+        <!-- <div class="
+        "> -->
         <div class="hero rounded-3xl max-w-1/2" style="background-image: url('./Images/3.png');">
           <div class="hero-overlay bg-opacity-60"></div>
           <div class="hero-content text-center text-neutral-content">
@@ -192,10 +192,10 @@
       </div>
       </div><br>
       <hr class="leading-3 py-3">
-      <div class="hero lg:h-fit my-7  rounded-3xl max-w-auto" style="background-image: url('./Images/4.png');">
+      <div class="hero lg:h-fit my-7 bg-no-repeat bg-cover rounded-3xl max-w-auto"  style="background-image: url('./Images/4.png');">
         <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-left text-neutral-content">
-          <div class="max-w-md px-7 text-start mt-24">
+        <div class="hero-content text-left text-white">
+          <div class="max-w-md px-7 mt-24">
             <h1 class="mb-5 text-3xl font-bold">Professional Program</h1>
             <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
@@ -213,9 +213,9 @@
     </section>
 
     <!-- product price and review -->
-    <section>
+    <section class="lg:p-12">
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-        <div class="hero  rounded-2xl border-2 border-black">
+        <div class="hero  rounded-2xl border-2 h-fit border-gray-50">
           <div class="hero-content flex-col lg:flex-row">
             <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
             <div class="py-1">
@@ -252,7 +252,7 @@
             </div>
           </div>
         </div>
-        <div class="hero min-h-screen rounded-2xl border-2 border-black">
+        <div class="hero rounded-2xl h-fit border-2 border-gray-50">
           <div class="hero-content flex-col lg:flex-row">
             <img src="Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
             <div class="py-1">
@@ -289,7 +289,7 @@
             </div>
           </div>
         </div>
-        <div class="hero min-h-screen rounded-2xl border-2 border-black">
+        <div class="hero h-fit rounded-2xl border-2 border-gray-50">
           <div class="hero-content flex-col lg:flex-row">
             <img src="Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
             <div class="py-1">
@@ -326,7 +326,7 @@
             </div>
           </div>
         </div>
-        <div class="hero min-h-screen rounded-2xl border-2 border-black">
+        <div class="hero h-fit rounded-2xl border-2 border-gray-50">
           <div class="hero-content flex-col lg:flex-row">
             <img src="Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
             <div class="py-1">
@@ -363,7 +363,7 @@
             </div>
           </div>
         </div>
-        <div class="hero min-h-screen rounded-2xl border-2 border-black">
+        <div class="hero h-fit rounded-2xl border-2 border-gray-50">
           <div class="hero-content flex-col lg:flex-row">
             <img src="Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
             <div class="py-1">
@@ -400,7 +400,7 @@
             </div>
           </div>
         </div>
-        <div class="hero min-h-screen rounded-2xl border-2 border-black">
+        <div class="hero h-fit rounded-2xl border-2 border-gray-50">
           <div class="hero-content flex-col lg:flex-row">
             <img src="Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
             <div class="py-1">
@@ -517,6 +517,81 @@
           Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
         </p>
       </div>
+      <!-- input sectopn  -->
+      <div class="flex-row lg:flex lg:justify-around">
+        <div class="border-2 border-slate-500 lg:w-1/2 rounded-2xl p-2 lg:p-6">
+          <div class="bg-lime-50 px-4 py-7 rounded-xl m-3 gap-3">
+            <img src="Images/Group 1171275317.png" alt="">
+            <p>Phone Number : <br> 
+              <span class="font-bold">(+62) 123-321-543</span></p>
+          </div>
+          <div class="bg-yellow-50 px-4 py-7 rounded-xl m-3">
+            <img src="Images/Group 1171275318.png" alt="">
+            <p>
+              Email : <br>
+              <span class="font-bold">hockeys@support.com</span>
+            </p>
+          </div>
+          <div class="bg-cyan-50 px-4 py-7 rounded-xl m-3">
+            <img src="Images/Group 1171275321.png" alt="">
+            <p>
+              Location : <br>
+              <span class="font-bold">152/1 Mohakhali Wireless Gate</span>
+            </p>
+          </div>
+          
+        </div>
+        <div>
+          <div class="hero h-fit lg:w-1/2 ">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              
+              <div class="card shrink-0 w-fit ">
+                <form class="card-body p-0">
+                  <div class="flex-row lg:flex gap-2 lg:gap-5">
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text font-bold">Your Name</span>
+                      </label>
+                      <input type="text" placeholder="Enter your full name" class="input bg-slate-50" required />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text font-bold">Your Email</span>
+                      </label>
+                      <input type="email" placeholder="Enter your email" class="input bg-slate-50" required />
+                    </div>
+                  </div>
+                  <div class="flex-row lg:flex gap-2 lg:gap-5">
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text font-bold">Subject</span>
+                      </label>
+                      <input type="text" placeholder="Enter your subject" class="input bg-slate-50" required />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text font-bold">Phone Number</span>
+                      </label>
+                      <input type="email" placeholder="Enter your phone number" class="input bg-slate-50" required />
+                    </div>
+                  </div>
+                  <label class="form-control">
+                    <div class="label">
+                      <span class="label-text font-semibold">Message</span>
+                      
+                    </div>
+                    <textarea class="textarea textarea-bordered lg:h-56" placeholder="Write your message"></textarea>
+                    
+                  </label>
+                  <div class="form-control lg:mt-6">
+                    <button class="btn text-white bg-[#FF4240]">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
         <!-- social media  -->
@@ -532,7 +607,7 @@
   <footer class="footer p-10 bg-neutral text-neutral-content font-monrope">
     <nav class="mx-w-1/4">
       <header class="text-white text-xl">Get In Touch</header>
-      <a class="link link-hover">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna
+      <a class="link link-hover lg:w-80">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna
         in sit nullam proin. </a>
       <a class="link link-hover flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
           fill="none">
@@ -547,21 +622,21 @@
             stroke="#FF4240" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
         </svg>(+62) 123-321-543</a>
     </nav>
-    <div class="flex">
-      <nav class="">
+    <div class="flex justify-around">
+      <nav class="fle">
         <header class="text-white text-xl">Company</header>
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Leadership</a>
-        <a class="link link-hover">Careers</a>
-        <a class="link link-hover">News & Article</a>
-        <a class="link link-hover">Legal Notice</a>
+        <a class="link link-hover">About us</a><br>
+        <a class="link link-hover">Leadership</a><br>
+        <a class="link link-hover">Careers</a><br>
+        <a class="link link-hover">News & Article</a><br>
+        <a class="link link-hover">Legal Notice</a><br>
       </nav>
-      <nav>
+      <nav class="">
         <header class="text-white text-xl">Support</header>
-        <a class="link link-hover">Help Center</a>
-        <a class="link link-hover">FAQ</a>
-        <a class="link link-hover">Ticket Support</a>
-        <a class="link link-hover">Contact Us</a>
+        <a class="link link-hover">Help Center</a><br>
+        <a class="link link-hover">FAQ</a><br>
+        <a class="link link-hover">Ticket Support</a><br>
+        <a class="link link-hover">Contact Us</a><br>
       </nav>
     </div>
     <nav>
